@@ -1,0 +1,104 @@
+
+body{
+    background-color: #fdfff6;
+}
+
+
+.colornav{
+    background-color: #f4ffc3;
+}
+
+ul .nav-item:hover{
+    color: white;
+    background-color: #f4ffc3;
+    border-radius: 10px;
+    
+    
+}
+.tituloa{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.instagram{
+    background-color: rgb(183, 0, 255);
+
+}
+ul a:hover{
+    color: white;
+}
+
+.carousel-inner{
+    max-height: 25rem;
+}
+
+.imageness{
+    display:none;
+}
+
+.footer{
+    height: 100px;
+}
+.altura{
+    height: 120px;
+}
+.nada{
+    text-decoration: none;
+    color: white;
+}
+.nada:hover{
+    color: rgb(204, 204, 204);
+}
+
+.sombra{
+    filter: drop-shadow(0px 0px 20px black);
+}
+
+.sombrasdos{
+    text-shadow: 1px 1px 20px black;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .tamañomenu{
+        width: 50% !important;
+    }
+    
+}
+
+@media (min-width: 576px) { 
+    .formulario{
+        display: flex;
+        justify-content: center;
+    }
+    
+ }
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .textoabajo{
+        width:500px;
+    }
+    .formulario{
+        display: flex;
+        justify-content: center;
+    }
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .imageness{
+        display:inline;
+        width: 150px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
